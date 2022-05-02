@@ -1,0 +1,18 @@
+{
+    "name": "sh0beir/todo",
+    "description": "This is The Todo package",
+    "authors": [
+        {
+            "name": "Shobeir Fatehi",
+            "email": "shobeir.fatehi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "sh0beir\\todo\\Tests\\": "tests/",
+            "sh0beir\\todo\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
